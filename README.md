@@ -1,1 +1,1 @@
-# clinicalpharmacology
+# clinpharmacology
