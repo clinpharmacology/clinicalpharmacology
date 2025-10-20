@@ -12,6 +12,7 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       background-color: #003366;
       color: white;
@@ -20,6 +21,7 @@
       font-size: 1.5rem;
       letter-spacing: 0.5px;
     }
+
     nav {
       background-color: #e6e9ef;
       display: flex;
@@ -27,19 +29,23 @@
       gap: 1.5rem;
       padding: 1rem 0;
     }
+
     nav a {
       text-decoration: none;
       color: #003366;
       font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
     main {
       max-width: 900px;
       margin: 2rem auto;
       padding: 1rem;
     }
+
     section {
       background: white;
       border-radius: 10px;
@@ -47,24 +53,26 @@
       padding: 1.5rem;
       margin-bottom: 2rem;
     }
+
     h2 {
       color: #003366;
       margin-bottom: 1rem;
     }
+
+    h3 {
+      color: #00509e;
+      margin-top: 1rem;
+    }
+
     ul {
       margin-left: 1.5rem;
       margin-bottom: 1rem;
     }
+
     li {
       margin-bottom: 0.7rem;
     }
-    footer {
-      margin-top: 2rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #64748b;
-      padding-bottom: 2rem;
-    }
+
     .back-link {
       display: inline-block;
       margin-bottom: 1rem;
@@ -72,8 +80,22 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     .back-link:hover {
       text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #64748b;
+      padding-bottom: 2rem;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #003366;
     }
   </style>
 </head>
@@ -96,44 +118,76 @@
     <a href="../glossary.html" class="back-link">&larr; Back to Glossary Index</a>
 
     <section>
-      <h2>Overview</h2>
-      <p>These refer to sections of the FD&C Act describing two categories of compounding pharmacies:</p>
+      <h2>What are 503A and 503B?</h2>
+      <p>These sections of the FD&C Act describe two categories of compounding pharmacies:</p>
+
+      <h3>503A – Traditional Compounding Pharmacies</h3>
       <ul>
-        <li><strong>503A – Traditional Compounding Pharmacies:</strong> Local/community pharmacies that compound drugs for individual patients based on prescriptions. Regulated by state boards; patient-specific; not for bulk or resale.</li>
-        <li><strong>503B – Outsourcing Facilities:</strong> Larger facilities producing sterile drugs in bulk without individual prescriptions. Must register with FDA, follow cGMP, and undergo inspections.</li>
+        <li><strong>Who they are:</strong> Local/community pharmacies compounding drugs for individual patients based on prescriptions.</li>
+        <li><strong>Purpose:</strong> Prepare customized medications when commercially available drugs don't meet patient needs. Example: allergy to a dye, so pharmacist makes dye-free version.</li>
+        <li><strong>Rules:</strong> Patient-specific, regulated by state boards, cannot make drugs in bulk, not required to follow full FDA manufacturing standards.</li>
+      </ul>
+
+      <h3>503B – Outsourcing Facilities</h3>
+      <ul>
+        <li><strong>Who they are:</strong> Larger facilities producing sterile drugs in bulk without individual prescriptions.</li>
+        <li><strong>Purpose:</strong> Supply hospitals, clinics, or physician offices needing compounded drugs at scale.</li>
+        <li><strong>Rules:</strong> Must register with FDA, follow cGMP (like manufacturers), inspectable by FDA, can compound sterile drugs in batches for office use.</li>
       </ul>
     </section>
 
     <section>
-      <h2>Key Differences from FDA-approved Drugs</h2>
+      <h2>Key Differences from FDA-Approved Drugs</h2>
       <ul>
-        <li>FDA-approved drugs: NDA/ANDA required, full clinical trials for safety & efficacy, commercially mass-produced.</li>
-        <li>503B compounded drugs: No NDA/ANDA, cGMP compliance, sterility & potency testing, used for shortages or hospital-specific needs.</li>
+        <li>FDA-approved drugs: Go through NDA/ANDA, full clinical trials, mass-produced, fully characterized PK/PD, regulated for safety & efficacy.</li>
+        <li>503B compounded drugs: No premarket approval required, cGMP compliance, batch sterility/potency testing, used during drug shortages or special hospital needs.</li>
       </ul>
     </section>
 
     <section>
       <h2>Clinical Pharmacology Relevance</h2>
       <ul>
-        <li>503A: Individualized therapy; may affect PK/PD due to excipient changes.</li>
-        <li>503B: Quality-controlled; batch testing reduces variability but efficacy not formally proven.</li>
-        <li>Clinical trials require GMP-compliant drugs; 503B may be used under sponsor oversight, 503A cannot.</li>
+        <li>503A: Individualized therapy, altering excipients may affect drug disintegration, dissolution, bioavailability.</li>
+        <li>503B: Reduces variability through cGMP, sterility and potency testing, but efficacy not formally proven.</li>
+        <li>Clinical trials: Only GMP-compliant drugs are used; 503B may be acceptable under sponsor oversight, 503A cannot.</li>
       </ul>
     </section>
 
     <section>
-      <h2>Risks and Safety</h2>
+      <h2>Risks and Safety Considerations</h2>
       <ul>
-        <li>503B drugs can cause adverse events: contamination, dosing errors, excipient incompatibility, allergic reactions.</li>
-        <li>Adverse events must be reported via FDA MedWatch.</li>
-        <li>Historical incidents (e.g., NECC 2012) led to 503B regulation under the Drug Quality and Security Act 2013.</li>
+        <li>503B drugs, even under GMP, may cause adverse reactions: pyrogenic/endotoxin reactions, particulate contamination, dosing errors, excipient incompatibility, allergies.</li>
+        <li>Adverse events must be reported via FDA MedWatch. 503B facilities are legally required to report serious events within 15 days.</li>
+        <li>Historical incidents: 2012 NECC tragedy (contaminated methylprednisolone acetate injections) → led to creation of 503B regulation in 2013.</li>
+        <li>Residual risk remains due to human handling, batch sampling, and formulation variability.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>FAQs</h2>
+      <ul>
+        <li><strong>Is 503B like a mini-drug factory?</strong> Yes, they operate like small pharmaceutical manufacturers but focus on compounding existing APIs, not developing new drugs.</li>
+        <li><strong>Are 503B facilities independent?</strong> Yes, they can be independent or hospital-affiliated, selling products for office use.</li>
+        <li><strong>What drugs can 503B facilities make?</strong> Sterile/non-sterile drugs from FDA-approved APIs or shortage-listed drugs; cannot produce controlled substances or biologics freely.</li>
+        <li><strong>Why is 503B important?</strong> Ensures availability, custom formulations, and GMP-quality sterility, though efficacy data isn’t generated.</li>
+        <li><strong>Do 503B drugs need clinical trials or bioequivalence tests?</strong> No. Safety/efficacy not formally proven. Only sterility, potency, and stability must be tested.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>References / Useful Links</h2>
+      <ul>
+        <li>FDA: <a href="https://www.fda.gov/drugs/human-drug-compounding/503b-outsourcing-facilities" target="_blank">503B Outsourcing Facilities</a></li>
+        <li>Drug Quality and Security Act (2013): <a href="https://www.fda.gov/drugs/human-drug-compounding/drug-quality-and-security-act" target="_blank">DQSA Overview</a></li>
+        <li>FDA MedWatch: <a href="https://www.fda.gov/medwatch" target="_blank">Safety Information & Adverse Event Reporting</a></li>
       </ul>
     </section>
 
     <section>
       <h2>Comments / Feedback</h2>
-      <p>Visitors can leave suggestions or corrections here. (Future: integrate Disqus, GitHub Discussions, or another commenting system)</p>
+      <p>Visitors can provide suggestions or corrections here. (Future: integrate commenting system like Disqus or GitHub Discussions.)</p>
     </section>
+
   </main>
 
   <footer>
